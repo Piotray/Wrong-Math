@@ -20,7 +20,7 @@ button {
 }
 
 #display {
-    width: calc(100% - 40px); /* Adjust the width to fit within the calculator */
+    width: calc(100% - 40px); 
     margin-bottom: 20px;
-    font-size: 24px; /* Increase the font size */
+    font-size: 24px; 
 }
