@@ -1,12 +1,9 @@
-/* Basic styling */
 .calculator {
-    width: 280px;
-    margin: 50px auto;
-    padding: 15px;
-    border: 1px solid #8f8484;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-color: rgb(170, 172, 163);
+    width: 320px;
+    margin: 25px auto;
+    padding: 5px;
+    border: none;
+    background-color: transparent;
 }
 
 .moto {
@@ -15,32 +12,60 @@
     padding-right: 42px;
     text-align: auto;
     font-size: 18px;
+    line-height: 1.5;
 }
 
 h1 {
     text-align: center;
     padding-bottom: 12px;
-    padding-top: 12px;  
+    padding-top: 12px;
 }
 
 button {
     width: 50px;
     height: 50px;
-    margin: 8px;
+    margin: 10px 10px 10px 10px;
     font-size: 20px;
-    border-radius: 5px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    border-color: rgb(212, 207, 207);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(54, 52, 52);
+    box-shadow: 0 0 20px rgba(233, 237, 238, 0.9); 
+    transition: box-shadow 0.3s ease; 
+}
+
+.colorbtn {
+    background-color: rgb(73, 76, 77);
+    width: 70px;
+}
+
+.colorbtn:hover {
+    background-color: rgb(94, 97, 98);
+    width: 70px;
+}
+
+.c-button {
+    background-color: #f70400;
 }
 
 #display {
-    width: calc(100% - 9px); 
-    height: 32px;
+    width: calc(100% - 15px); 
+    height: 38px;
     margin-bottom: 10px;
     font-size: 24px; 
     border-radius: 5px;
+    border: 2px solid;
+    border-color: rgb(255, 255, 255);
+    box-shadow: inset 0 0 2px rgba(56, 54, 54, 0.804);
 }
 
 body {
-    background-color: rgb(231, 229, 146);
+    background-color: #999999;
 }
 
 
