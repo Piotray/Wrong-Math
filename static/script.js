@@ -26,5 +26,5 @@ function calculateResult() {
 }
 
 function falsifyResult(result) {
-    return result + Math.floor(Math.random() * 200) - 100; // Random number between -100 and 100
+    return result + Math.floor(Math.random() * 200) - 100; 
 }
