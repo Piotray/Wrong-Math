@@ -65,7 +65,7 @@ button:hover {
 }
 
 body {
-    background-color: #999999;
+    background-image: url('/static/background-image.jpg');
 }
 
 
