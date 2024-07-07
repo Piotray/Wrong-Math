@@ -16,7 +16,7 @@ Clone the repository:
 1. Clone the repository:
     ```sh
     git clone https://github.com/Piotray/Wrong-Math.git
-    cd webticker
+    cd wrong-math
     ```
 
 2. Install the dependencies:
